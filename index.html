@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Quiz Website</title>
+    <link rel="website icon" type="jpg" href="Wbbkg1.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="Notes_qz.css">
+    <script defer src="Notes_qz.js"></script>
+    
+</head>
+
+<body class="body">
+
+ <main class="main">
+     
+          	   
+   <header class="header">
+       
+       <div class="title">
+
+       <div class="logo_hld_1">
+           
+       <center>
+       <div class="logo_hld">
+           
+           <center>
+            <a href="#">
+             		<img class="logo" src="Wbbkg1.jpg" >
+            </a>
+            <br>
+           </center>
+           
+       </div>
+       </center>
+       
+       </div>
+       
+           <span class="headline">A<sup>3</sup> PARADOX </span>
+           
+       </div>
+       </div>
+
+     <nav class="navbar">
+         
+         <button class="login_btn">Login</button>
+                
+	    <div class="nav_mnu" id="nv-mnu">
+    			 <ul class="nav_list" type="none">
+             
+             <li class="nav_item" type="none">
+  	 <a href="index.html" class="nav_link_home_pg1">
+     	       	    <span class="nav_icon">	
+  			            <i class="fa fa-home"></i>
+  			        		 </span>
+    		          <span class="nav_name">Home</span>
+      		  	    </a>
+  			        </li>
+  			        
+  			        <li class="nav_item" type="none">
+     <a href="Notes_Learn.html" class="nav_link_learn_pg2">
+     	       	    <span class="nav_icon">		
+  			            <i class="fa fa-mortar-board"></i>
+  			        		 </span>
+    		          <span class="nav_name">Learn</span>
+      		  	   </a>
+  			        </li>
+  			        
+  			        <li class="nav_item" type="none">
+  	 <a href="Notes_About.html" class="nav_link_about_pg2">
+     	       	    <span class="nav_icon">		
+  			           <i class="fa fa-user-circle-o"></i>
+  			        		 </span>
+    		          <span class="nav_name">About</span>
+      		  	   </a>
+  			        </li>
+  			        
+  			        <li class="nav_item" type="none">
+     <a href="Notes_Menu.html" class="nav_link_menu_pg2">
+     	       	    <span class="nav_icon">		
+  			            <i class="fa fa-navicon"></i>
+  			        		 </span>
+    		          <span class="nav_name">Menu</span>
+      		  	    </a>
+  			        </li>
+                    
+           </ul>
+        </div>
+                            
+  </nav>
+      
+   </header>
+
+    <section class="sec_home" id="home">
+                <div class="home_content">
+                    <h1>Aryan's<br>Quiz Web</h1>
+                    <p>This Quiz Website will be able provide you with wise MCQ and Short Questions with Answers. Hear you can practice and develop your skill on many sectors of Science. Tap the Start Button and start Playing.</p>
+                    
+           <button class="start_btn">Start Quiz</button>
+                </div>
+                
+    </section>                
+  </main>
+
+    <div class="guid_hld">
+
+    <div class="guid_palet">
+        
+        <h2>Quiz Guid</h2>
+        
+        <div class="guidline_hld">
+        <br>
+<span class="guidelines">1. There will be Classified MCQ type questions Based On JSC, SSC & HSC level's curriculum.</span>
+
+<span class="guidelines">2. Every answer check will cause Negative Scores.</span>
+<span class="guidelines">3. Your progress will be shown with percentage.</span>
+<span class="guidelines">4. You'll raise to the next level completing each session.</span>
+<span class="guidelines">5. You can also search the answer details in <a href="Notes_Learn.html" class="quk_link_learn"><u><b>Learning section</b></u></a> in this web.</span>
+
+        </div>
+        
+   	   <div class="guid_btn_grp">
+     <a href="#" class="exit_btn">Exit</a>
+  
+  <a href="#" class="cont_btn">Continue</a>
+      </div>
+      
+    </div>
+
+    </div>
+    
+    
+    <div class="login_palet_hld">
+        <form class="login_palet" action="https://formspree.io/f/mnqkggwo"
+  method="POST">
+            
+  			       <h2> Login Required </h2>
+  			            
+  			       <div class="login_input_grp">
+  			           
+  			       <div class="login_input_box">
+  			           <span class="login_icon">
+  			               <i class="fa fa-user-circle-o"></i>
+  			           </span>
+  			           <input type="text" name="text" id="text" required>
+  			           <lable>Your Name</lable>
+  			       </div>
+  			           
+  			       <div class="login_input_box">
+  			           <span class="login_icon">
+  			               <i class="fa fa-envelope"></i>
+  			           </span>
+  			           <input type="text" name="email" id="text" required>
+  			           <lable>Email or Phone Number</lable>
+  			       </div>
+  			       
+  			       <div class="login_input_box">
+  			        <span class="login_icon" onclick="LockShow()">
+  			              <i class="fa fa-lock" id="LC"></i>
+  			              <i class="fa fa-unlock-alt" id="LO"></i>
+  			        </span>
+  			           <input type="password" name="password" id="password" required>
+  			           <lable>Password</lable>
+  			      </div>
+  			         
+  			       
+  			           			         
+  			         </div>
+  			         
+  			         <div class="login_low_btn">
+  			             <button type="submit" class="submit_btn">
+  			                 Submit
+  			             </button>
+  			         </div>
+  			         
+        </form>
+    </div>
+    
+    
+    
+    <!---------- Palets ---------->
+    
+    
+    
+    <div class="class_palet_hld">
+        <div class="class_palet">
+            <h2>Select Class</h2>
+            
+            <div class="class_btn_grp">
+                
+            <a href="#" class="class_JSC">JSC</a>
+            <a href="#" class="class_SSC">SSC</a>
+            <a href="#" class="Class_HSC">HSC</a>
+            
+            </div>
+            
+            <div class="class_low_btn">
+                <a href="#" class="class_ext_btn">Exit</a>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    <!---------- S
+                 S
+                 C ---------->
+    
+    
+    <div class="subj_palet_ssc_hld">
+        
+        <div class="subj_palet_ssc">
+            
+            <h2>
+                Select Quiz Subject
+            </h2>
+            
+            <div class="subj_btn_grp">
+                
+            <a href="#" class="sub_iq">IQ Test</a>
+            <a href="#" class="sub_phy">Physics</a>
+            <a href="#" class="sub_che">Chemistry</a>
+            <a href="#" class="sub_bio">Biology</a>
+            <a href="#" class="sub_hrm">Higher Math</a>
+            <a href="#" class="sub_mth">Math</a>
+            <a href="#" class="sub_ict">ICT</a>
+            
+            </div>
+            
+            <div class="subj_low_btn">
+                <a href="#" class="sub_ext_btn">Exit</a>
+            </div>
+            
+        </div>
+        
+    </div>
+
+
+    <!-- SSC
+         IQ -->
+    
+    
+    <div class="type_palet_iq_hld">
+        
+        <div class="type_palet_iq">
+            
+            <h2>
+                Select Type
+            </h2>
+            
+            <div class="type_btn_grp">
+                
+               <a href="#" class="type_btn_iq_bn">Bangla</a>
+               <a href="#" class="type_btn_iq_en">English</a>
+                
+            </div>
+            
+            <div class="type_low_btn">
+                <a href="#" class="type_ext_btn">Back</a>  
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    
+    <!-- SSc Physics -->
+    
+    
+    <div class="type_palet_phy_hld">
+        
+        <div class="type_palet_phy">
+            
+            <h2>
+                Select Chapter
+            </h2>
+            
+            <div class="type_btn_grp_phy">
+                
+              <a href="#" class="chapter_btn1_phy">ভৌত রাশি এবং পরিমাপ</a>
+              
+              <div class="merge_btn">
+              <a href="#" class="chapter_btn2_phy">গতি</a>
+              <a href="#" class="chapter_btn3_phy">বল</a>
+              </div>
+              
+              <a href="#" class="chapter_btn4_phy">কাজ, ক্ষমতা ও শক্তি</a>
+              <a href="#" class="chapter_btn5_phy">পদার্থের অবস্থা ও চাপ</a>
+              <a href="#" class="chapter_btn6_phy">বস্তুর উপর তাপের প্রভাব</a>
+              <a href="#" class="chapter_btn7_phy">তরঙ্গ ও শব্দ</a>
+              
+              <div class="merge_btn">
+              <a href="#" class="chapter_btn8_phy">আলোর প্রতিফলন</a>    
+              <a href="#" class="chapter_btn9_phy">আলোর প্রতিসরণ</a>
+              </div>
+              
+              
+              <div class="merge_btn">
+              <a href="#" class="chapter_btn10_phy">স্থির বিদ্যুৎ</a>
+              <a href="#" class="chapter_btn11_phy">চল বিদ্যুৎ</a>
+              </div>
+              
+              <a href="#" class="chapter_btn12_phy">বিদ্যুতের চৌম্বক ক্রিয়া</a>
+              <a href="#" class="chapter_btn13_phy">আধুনিক পদার্থবিজ্ঞান ও ইলেকট্রনিকস</a>
+              <a href="#" class="chapter_btn14_phy">জীবন বাঁচাতে পদার্থবিজ্ঞান</a>
+                
+            </div>
+            
+            <div class="type_low_btn">
+                <a href="#" class="type_ext_btn_phy">Back</a>  
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    
+    
+    <!---------- H
+                 S
+                 C ---------->
+    
+    
+           <div class="subj_palet_hsc_hld">
+               
+            <div class="subj_palet_hsc">
+                   
+                   <h2>
+                       Select Subject
+                   </h2>
+                   
+             <div class="subj_btn_grp_hsc">
+                   
+             <a href="#" class="sub_iq_hsc">IQ Test</a>
+                    
+             <div class="merge_btn">
+             <a href="#" class="sub_phy1_hsc">Physics 1</a>
+             <a href="#" class="sub_phy2_hsc">Physics 2</a>
+             </div>
+                    
+             <div class="merge_btn">
+             <a href="#" class="sub_che1_hsc">Chemistry 1</a>
+             <a href="#" class="sub_che2_hsc">Chemistry 2</a>
+             </div>
+               
+             <div class="merge_btn">
+             <a href="#" class="sub_bio1_hsc">Biology 1</a>
+             <a href="#" class="sub_bio2_hsc">Biology 2</a>
+             </div>
+               
+             <a href="#" class="sub_mth_hsc">Math</a>
+             <a href="#" class="sub_ict_hsc">ICT</a>
+               
+             </div>
+             
+             <div class="sub_hsc_low_btn">
+                 <a href="#" class="sub_hsc_ext_btn">Exit</a>
+             </div>
+                   
+            </div>
+               
+           </div>
+           
+           
+     
+            <!-- HSC
+            
+                    Physics -->
+           
+           
+    <div class="qz_palet_hsc_phy_ch1_set1_hld">
+    
+    <div class="quiz_palet_hsc_phy_ch1_set1">
+        
+        <h1>Physics</h1>
+        
+        <div class="quiz_header">
+           <span>
+               HSC: Physics 1st Paper.
+               <br>
+               Chapter: 1 | Set: 1
+           </span>
+           
+           <span class="score_box_hsc_phy">
+               Score:
+               <span class="score_box_hsc_phy_ch1_set1"> 0 </span>
+                / 10
+           </span>
+           
+        </div>
+
+<div class="qa_set_hsc_phy_ch1_set1">
+    
+
+      <div class="qn_grp_hsc_phy">
+            
+        <h2 class="question_hsc_phy_ch1_set1">
+            1. সবুজ রং দেখলে থেমে যাই এবং লাল রং দেখলে অবিরত থাকি?
+        </h2>
+        
+        <div class="option_list_hsc_phy_ch1_set1">
+           
+            <button class="option_hsc_phy_ch1_set1">
+                <span>
+                    A. ট্রেন চালানোর সময় 
+                </span>
+            </button>
+            
+            <button class="optionvalid_hsc_phy_ch1_set1" valid="valid">
+                <span>
+                    B. তরমুজ খাওয়ার সময় 😋
+                </span>
+            </button>
+            
+            <button class="option_hsc_phy_ch1_set1">
+                <span>
+                    C. ট্রাফিক লাইট দেখে 🚦
+                </span>
+            </button>
+            
+            <button class="option_hsc_phy_ch1_set1">
+                <span>
+                    D. বিমান উড্ডয়নের সময় ✈️
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn">
+                   <span style="color: #000000;">B</span>
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+
+      
+      <div class="qn_grp_hsc_phy">
+            
+        <h2 class="question_hsc_phy_ch1_set1">
+            2. ব্রেকফাস্ট করতে গিয়ে কী করা যায় না?
+        </h2>
+        
+        <div class="option_list_hsc_phy_ch1_set1">
+       
+            <button class="optionvalid_hsc_phy_ch1_set1" valid="valid">
+                <span>
+                    A. ডিনার
+                </span>
+            </button>
+            
+            <button class="option_hsc_phy_ch1_set1">
+                <span>
+                    B. কথা বলা 
+                </span>
+            </button>
+            
+            <button class="option_hsc_phy_ch1_set1">
+                <span>
+                    C. হাঁচি দেয়া 🤧
+                </span>
+            </button>
+            
+            <button class="option_hsc_phy_ch1_set1">
+                <span>
+                    D. হাসিঠাট্টা করা 🤣
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn_hsc_phy">
+                    A
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+      
+      
+      <div class="qn_grp_hsc_phy">
+            
+        <h2 class="question_hsc_phy_ch1_set1">
+            3. সবুজ রং রং দেখলে অবিরত থাকি?
+        </h2>
+        
+        <div class="option_list_hsc_phy_ch1_set1">
+           
+            <button class="option_hsc_phy_ch1_set1">
+                <span>
+                    A. ট্রেন চালানোর সময় 
+                </span>
+            </button>
+            
+            <button class="optionvalid_hsc_phy_ch1_set1" valid="valid">
+                <span>
+                    B. তরমুজ 
+                </span>
+            </button>
+            
+            <button class="option_hsc_phy_ch1_set1">
+                <span>
+                    C. ট্রাফিক লাইট দেখে 🚦
+                </span>
+            </button>
+            
+            <button class="option_hsc_phy_ch1_set1">
+                <span>
+                    D. বিমান উড্ড
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn_hsc_phy">
+                   <span style="color: #000000;">B</span>
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+      
+      
+      
+      <div class="qn_grp_hsc_phy">
+            
+       <a href="#" class="result_show_hsc_phy">
+           Click Next Button to see the Quiz result
+       </a>
+        
+      </div>
+      
+      <div class="qn_grp_hsc_phy">
+            
+       <a href="#" class="result_show_hsc_phy">
+           Click Next Button to see the Quiz result
+       </a>
+        
+      </div>
+      
+      <div class="qn_grp_hsc_phy">
+            
+       <a href="#" class="result_show_hsc_phy">
+           Click Next Button to see the Quiz result
+       </a>
+        
+      </div>
+      
+      <div class="qn_grp_hsc_phy">
+            
+       <a href="#" class="result_show_hsc_phy">
+           Click Next Button to see the Quiz result
+       </a>
+        
+      </div>
+
+</div>
+
+        
+        
+        <div class="quiz_btn_grp">
+            
+            <a href="index.html" class="exit_btn_hsc_phy">
+            Exit
+            </a>
+            
+            <div class="quiz_footer">
+            <span>
+            <span class="qn_num_hsc_phy">1</span>
+            of 10
+            </span>
+            </div>
+            
+            <a href="#" class="next_btn_hsc_phy">
+            Next
+            </a>
+  
+        </div>
+              
+    </div>
+    
+    </div>
+    
+    
+    
+          <div class="result_palet_hld_hsc_phy">
+              
+              <div class="result_palet_hsc_phy">
+                  
+                  <h2>Quiz Result</h2>
+                  
+                  <span class="result_comment_hsc_phy">
+                      Error !!!
+                      <br>
+                      Click Option Buttons Slowly
+                  </span>
+                  
+                  <div class="percentage_container_hsc_phy">
+
+                  <div class="prg_hld_hsc_phy">
+                  <span class="progress_value_hsc_phy">0%</span>
+                  </div>
+                  
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+     <defs>
+         <linearGradient id="GradientColor_hsc_phy">
+             <stop offset="0%" stop-color="#e91e63" />
+             <stop offset="100%" stop-color="#673ab7" />
+         </linearGradient>
+     </defs>
+     <circle cx="80" cy="80" r="70" stroke-linecap="round" class="circle_hsc_phy"/>
+</svg>
+                      
+                     </div>
+                  
+                      <span class="result_score_hsc_phy">
+                       Your Score is
+                       <span class="totalscore_phy">0</span>
+                       Out of 10
+                      </span>
+                  
+                  <div class="result_btn_grp_hsc_phy">
+                      
+                   <a href="index.html" class="result_bk_btn_hsc_phy">
+                       Back
+                   </a>
+                   <a href="index.html" class="result_btn_tryagain_hsc_phy">
+                       Try Again
+                   </a>
+                   
+                  </div>
+                  
+              </div>
+              
+          </div>
+   
+   
+   
+   
+   
+   
+
+   
+   
+   
+    
+    <!---------- IQ Quiz ---------->
+    
+    
+    
+    <div class="qz_palet_hld">
+    
+    <div class="quiz_palet">
+        
+        <h1>IQ Test</h1>
+        
+        <div class="quiz_header">
+           <span>
+               IQ Testing Questions
+               <br>
+               Bangla: Set-1
+           </span>
+           
+           <span class="score_box">
+               Score:
+               <span class="score"> 0 </span>
+                / 10
+           </span>
+           
+        </div>
+
+<div class="qa_set">
+    
+
+      <div class="qn_grp active">
+            
+        <h2 class="question">
+            1. কখন আমরা সবুজ রং দেখলে থেমে যাই এবং লাল রং দেখলে অবিরত থাকি?
+        </h2>
+        
+        <div class="option_list">
+           
+            <button class="option">
+                <span>
+                    A. ট্রেন চালানোর সময় 🚉
+                </span>
+            </button>
+            
+            <button class="optionvalid" valid="valid">
+                <span>
+                    B. তরমুজ খাওয়ার সময় 😋
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    C. ট্রাফিক লাইট দেখে 🚦
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    D. বিমান উড্ডয়নের সময় ✈️
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn">
+                   <span style="color: #000000;">B</span>
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+
+      
+      <div class="qn_grp">
+            
+        <h2 class="question">
+            2. ব্রেকফাস্ট করতে গিয়ে কী করা যায় না?
+        </h2>
+        
+        <div class="option_list">
+       
+            <button class="optionvalid" valid="valid">
+                <span>
+                    A. ডিনার করা 🕯️
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    B. কথা বলা 🤐
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    C. হাঁচি দেয়া 🤧
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    D. হাসিঠাট্টা করা 🤣
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn">
+                   <span style="color: #000000;">A</span>
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+      
+      
+      <div class="qn_grp">
+            
+        <h2 class="question">
+            3. একটি পাতিলে ১২টি মাছ আছে। ১০টি মারা গেলে আর কয়টি থাকবে?
+        </h2>
+        
+        <div class="option_list">
+       
+            <button class="option">
+                <span>
+                    A. ২টি 🥱
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    B. ২২টি 😶
+                </span>
+            </button>
+            
+            <button class="optionvalid" valid="valid">
+                <span>
+                    C. ১২টি 😏
+                </span>
+            </button>
+            
+            <button class="optionvalid" valid="valid">
+                <span>
+                    D. ১০টি 🙄
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn">
+                   <span style="color: #000000;">C</span>
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+      
+      
+      <div class="qn_grp">
+            
+        <h2 class="question">
+            4. AMERICA এর মাঝখানে কীসের অবস্থান?
+        </h2>
+        
+        <div class="option_list">
+           
+            <button class="option">
+                <span>
+                    A. Washington DC 🤔
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    B. National Geodetic Survey (NGS) 🤓
+                </span>
+            </button>
+            
+            <button class="optionvalid" valid="valid">
+                <span>
+                    C. The letter "R" 😁
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    D. Geographical Center of North America(RUGBY) 😎
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn">
+                   <span style="color: #000000;">C</span>
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+      
+      
+      <div class="qn_grp">
+            
+        <h2 class="question">
+            5. কোন ফুলে রক্ত আছে?
+        </h2>
+        
+        <div class="option_list" id="option_list">
+           
+            <button class="option">
+                <span>
+                    A. লাল গোলাপ 🌹
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    B. জবা 🌺
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    C. ডালিয়া 🥀
+                </span>
+            </button>
+            
+            <button class="optionvalid" valid="valid">
+                <span>
+                    D. রক্তকরবী 🩸
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn">
+                   <span style="color: #000000;">D</span>
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+      
+
+      <div class="qn_grp">
+            
+        <h2 class="question">
+            6. এক ব্যক্তির ১৫টি ছাগল আছে। ৮টা বাদে বাকিগুলো মারা গেল, তার কাছে আর কয়টি ছাগল রইল?
+        </h2>
+        
+        <div class="option_list" id="option_list">
+           
+            <button class="option">
+                <span>
+                    A. ৭টি 😏
+                </span>
+            </button>
+            
+            <button class="optionvalid" valid="valid">
+                <span>
+                    B. ৮টি 🤨
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    C. ১৫টি 🥴
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    D. ৩টি 😶
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn">
+                   <span style="color: #000000;">B</span>
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+      
+      
+      <div class="qn_grp">
+            
+        <h2 class="question">
+            7. আমি ভাত খায় এই বাক্যটিতে একটি ভূল শব্দ আছে, সেটি কোনটি?
+        </h2>
+        
+        <div class="option_list" id="option_list">
+           
+            <button class="option">
+                <span>
+                    A. খায় 😏
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    B. আমি 🤨
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    C. ভাত 😵‍💫
+                </span>
+            </button>
+            
+            <button class="optionvalid" valid="valid">
+                <span>
+                    D. ভূল 😆
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn">
+                   <span style="color: #000000;">D</span>
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+      
+      
+      <div class="qn_grp">
+            
+        <h2 class="question">
+            8. জনের বাবার চার সন্তান। তাদের তিন জনের নাম জুন, জুলাই, আগস্ট হলে অপরজনের নাম কী?
+        </h2>
+        
+        <div class="option_list" id="option_list">
+           
+            <button class="option">
+                <span>
+                    A. সেপ্টেম্বর 🤨
+                </span>
+            </button>
+            
+            <button  class="optionvalid" valid="valid">
+                <span>
+                    B. জন 😎
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    C. মার্চ 😅
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    D. জানুয়ারি 🤔
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn">
+                   <span style="color: #000000;">B</span>
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+      
+      
+      <div class="qn_grp">
+            
+        <h2 class="question">
+            9.একটি গরুর তিনটি পা হলে চারটি গরুর কয়টি পা হবে?
+        </h2>
+        
+        <div class="option_list" id="option_list">
+           
+            <button class="option">
+                <span>
+                    A. ১২টি 😎
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    B. ১৪টি 🤔
+                </span>
+            </button>
+            
+            <button class="optionvalid" valid="valid">
+                <span>
+                    C. ১৫টি 🤨
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    D. ১৮টি 🥴
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn">
+                   <span style="color: #000000;">C</span>
+                </a>
+            </div>
+            
+        </div>
+        
+      </div>
+      
+      
+      <div class="qn_grp">
+            
+        <h2 class="question">
+            10. মনে করো তোমার কাছে একটা ম্যাচ বক্স আছে যা নিয়ে তুমি একটি অন্ধকার ঘরে ঢুকলে। ঘরের ভেতরে একটা কুপী, কয়েকটা মোমবাতি ও একটা চুলা আছে। তুমি কোনটা আগে জ্বালাবে?
+        </h2>
+        
+        <div class="option_list" id="option_list">
+           
+            <button class="option">
+                <span>
+                    A. চুলা 😐
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    B. মোমবাতি 🤨
+                </span>
+            </button>
+            
+            <button class="option">
+                <span>
+                    C. কুপী 🤔
+                </span>
+            </button>
+            
+            <button class="optionvalid" valid="valid">
+                <span>
+                    D. ম্যাচ 🥴
+                </span>
+            </button>
+            
+            <div class="ans_hld">
+                Answer Check:
+                <span style="color: transparent;">-</span>
+                <a href="#" class="ans_btn">
+                   <span style="color: #000000;">D</span>
+                </a>
+            </div>
+        </div>
+        
+      </div>
+      
+      
+      <div class="qn_grp">
+            
+       <a href="#" class="result_show_iq">
+           Click Next Button to see the Quiz result
+       </a>
+        
+      </div>
+      
+      <div class="qn_grp">
+            
+       <a href="#" class="result_show_iq">
+           Click Next Button to see the Quiz result
+       </a>
+        
+      </div>
+      
+      <div class="qn_grp">
+            
+       <a href="#" class="result_show_iq">
+           Click Next Button to see the Quiz result
+       </a>
+        
+      </div>
+      
+      <div class="qn_grp">
+            
+       <a href="#" class="result_show_iq">
+           Click Next Button to see the Quiz result
+       </a>
+        
+      </div>
+
+</div>
+
+        
+        
+        <div class="quiz_btn_grp">
+            
+            <a href="index.html" class="exit2_btn">
+            Exit
+            </a>
+            
+            <div class="quiz_footer">
+            <span>
+            <span class="qn_num">1</span>
+            of 10
+            </span>
+            </div>
+            
+            <a href="#" class="next_btn">
+            Next
+            </a>
+  
+        </div>
+              
+    </div>
+    
+    </div>
+    
+    
+    
+          <div class="result_palet_hld_iq">
+              
+              <div class="result_palet_iq">
+                  
+                  <h2>Quiz Result</h2>
+                  
+                  <span class="result_comment_iq">
+                      Error !!!
+                      <br>
+                      Click Option Buttons Slowly
+                  </span>
+                  
+                <div class="percentage_container_iq">
+
+                  <div class="prg_hld">
+                  <span class="progress_value_iq">0%</span>
+                  </div>
+                  
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+     <defs>
+         <linearGradient id="GradientColor">
+             <stop offset="0%" stop-color="#e91e63" />
+             <stop offset="100%" stop-color="#673ab7" />
+         </linearGradient>
+     </defs>
+     <circle cx="80" cy="80" r="70" stroke-linecap="round" class="circle"/>
+</svg>
+                      
+                </div>
+                  
+                      <span class="result_score_iq">
+                       Your Score is
+                       <span class="totalscore_iq">0</span>
+                       Out of 10
+                      </span>
+                  
+                  <div class="result_btn_grp_iq">
+                      
+                   <a href="index.html" class="result_bk_btn">
+                       Back
+                   </a>
+                   <a href="index.html" class="result_btn_tryagain">
+                       Try Again
+                   </a>
+                   
+                  </div>
+                  
+              </div>
+              
+          </div>
+    
+    
+    
+    <!---------- IQ Quiz  ---------->
+
+</body>
+
+</html>
